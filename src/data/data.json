@@ -1,0 +1,13 @@
+{
+  "hello":[
+    {"id":1,"name":"C++","ext":"cpp","code":"#include <iostream>\nint main() {\n    std::cout << Hello World!;\n    return 0;\n}","added":"06/06/2024"},
+    {"id":2,"name":"JavaScript","ext":"js","code":"console.log(Hello World!)","added":""},
+    {"id":3,"name":"Php","ext":"php","code":"echo Hello World!","added":""},
+    {"id":4,"name":"Python","ext":"py","code":"print(Hello World!)","added":""},
+    {"id":5,"name":"Java","ext":"java","code":"class HelloWorld {\n    public static void main(String args[])\n    {\n        System.out.println(Hello, World);\n    }\n}","added":""},
+    {"id":6,"name":"Ruby","ext":"rb","code":"puts Hello World!","added":""}
+  ],
+  "tierList":[
+    {"id":4}
+  ]
+}
