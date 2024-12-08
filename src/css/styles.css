@@ -64,7 +64,7 @@ main{
       padding: 15px;
       display: flex;
       flex-direction: column;
-      div.name{
+      .name{
         width: 100%;
         display: flex;
         align-items: center;
@@ -82,18 +82,27 @@ main{
         }
         h2,h4{
           height: 100%;
-          padding: 0 10px 10px 5px;
+          padding: 0 10px 10px 0;
         }
       }
-      div.code{
+      .code{
         width: 100%;
         min-height: 150px;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         background-color: var(--bg);
         border-radius: 10px 0 10px 10px;
         padding: 10px;
+        overflow-x: scroll;
+      }
+      ::-webkit-scrollbar{
+        height: .5rem;
+      }
+      ::-webkit-scrollbar-thumb{
+        border-radius: .25rem;
+        border: 1px solid var(--bg);
+        background: var(--fontLight);
       }
     }
   }
